@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2903753600,
+              "duration": 3725020800,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,113 @@
         "before": [
           {
             "result": {
-              "duration": 4733698600,
+              "duration": 5619684600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify the login functionality with invalid username and password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-verify-the-login-functionality-with-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 353200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failed(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 828527600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 374133900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter a Username and Password",
+            "match": {
+              "location": "First_Scenario.user_enter_a_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Hari",
+                  "hari@234"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114823900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the login button",
+            "match": {
+              "location": "First_Scenario.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30684902800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User unable to login and close the browser",
+            "match": {
+              "location": "First_Scenario.user_unable_to_login_and_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664926200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch a chrome browser hit a FB url",
+            "match": {
+              "location": "First_Scenario.launch_a_chrome_browser_hit_a_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1837008300,
               "status": "passed"
             },
             "match": {
@@ -48,7 +154,7 @@
               }
             ],
             "result": {
-              "duration": 676408400,
+              "duration": 508971000,
               "status": "passed"
             },
             "match": {
@@ -57,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 776800700,
+              "duration": 780887600,
               "status": "passed"
             },
             "match": {
@@ -70,7 +176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2459280900,
+              "duration": 1451157100,
               "status": "passed"
             },
             "line": 17,
@@ -82,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 399953000,
+              "duration": 227516100,
               "status": "passed"
             },
             "line": 19,
@@ -102,7 +208,7 @@
           {
             "result": {
               "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat org.stepDefnition.Second_Scenario.read_the_error_message_and_Close_the_browser(Second_Scenario.java:32)\r\n\tat ✽.Read the error message and Close the browser(src/test/resources/Feature/Login.feature:22)\r\n",
-              "duration": 22307600,
+              "duration": 4867400,
               "status": "failed"
             },
             "line": 22,

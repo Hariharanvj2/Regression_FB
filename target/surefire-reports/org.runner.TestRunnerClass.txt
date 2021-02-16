@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.393 sec <<< FAILURE!
+To verify the forget password link for invalid user(To validate login functionality)  Time elapsed: 7.483 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at org.stepDefnition.Second_Scenario.read_the_error_message_and_Close_the_browser(Second_Scenario.java:32)
+	at ?.Read the error message and Close the browser(src/test/resources/Feature/Login.feature:22)
+
