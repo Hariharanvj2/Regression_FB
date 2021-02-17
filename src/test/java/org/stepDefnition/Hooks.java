@@ -15,9 +15,9 @@ public class Hooks extends Baseclass {
 	}
 
 	@After
-	public void failed(Scenario S) {
-		if (S.isFailed()) {
-			S.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
+	public void failed(Scenario s) {
+		if (s.isFailed()) {
+			s.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
 		}
 	}
 
